@@ -270,7 +270,7 @@ textarea {
 .inline-image {
     width: 7rem;
     height: 7rem;
-    background: url('/assets/images/logo-1.png') top center no-repeat;
+    background: url('../images/logo-1.png') top center no-repeat;
     background-size: cover;
     border-radius: 50%;
     border-bottom-right-radius: 0;
@@ -279,14 +279,14 @@ textarea {
 
 .dark-theme .has-sparkles::before,
 .dark-theme .has-sparkles::after {
-    background: url('/assets/images/sparkle_light.png') center no-repeat;
+    background: url('../images/sparkle_light.png') center no-repeat;
     background-size: cover;
 }
 
 .dark-theme .inline-image {
     width: 15rem;
     height: 15rem;
-    background: url('/assets/images/logo-1-alt.png') top center no-repeat;
+    background: url('../images/logo-1-alt.png') top center no-repeat;
     background-size: cover;
     border-radius: 50%;
     border-bottom-right-radius: 0;
@@ -329,12 +329,12 @@ textarea {
     max-width: 5rem;
     height: 4vw;
     max-height: 5rem;
-    background: url('/assets/images/sparkle_alt.png') center no-repeat;
+    background: url('../images/sparkle_alt.png') center no-repeat;
     background-size: cover;
 }
 
 .dark-theme .has-sparkles-alt::after {
-    background: url('/assets/images/sparkle_alt_light.png') center no-repeat;
+    background: url('../images/sparkle_alt_light.png') center no-repeat;
     background-size: cover;
 }
 
