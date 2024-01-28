@@ -17,7 +17,7 @@
     --dark-color: #363636;
     --border-top-color: rgba(0, 0, 0, .1);
     --link-hover-color: rgba(255, 255, 255, .2);
-    --title-font-family: 'Playfair Display', 'serif';
+    --title-font-family: 'Poppins', 'sans-serif';
     --body-font-family: 'Poppins', 'sans-serif';
     /* --container-width: 96rem; */
     --container-padding: 1.5rem;
@@ -201,9 +201,6 @@ textarea {
     opacity: 0;
 }
 
-.menu>.list .list-link {
-    text-transform: uppercase;
-}
 
 .list-link {
     font-size: 1.4rem;
@@ -256,15 +253,16 @@ textarea {
 
 .title {
     font-family: var(--title-font-family);
-    font-weight: 300;
-    text-transform: uppercase;
+    font-weight: 500;
+    /* text-transform: uppercase; */
 }
 
 .main-title {
     /* min ideal max  */
-    font-size: clamp(5rem, 7vw, 7rem);
+    font-size: clamp(4rem, 6vw, 6rem);
     text-align: center;
     line-height: 1.2;
+    font-weight: 500    ;
 }
 
 .inline-image {
@@ -347,7 +345,7 @@ textarea {
 }
 
 .description {
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-weight: 300;
 }
 
@@ -413,7 +411,7 @@ textarea {
     top: -1rem;
     transform: translateY(-100%);
     opacity: 0;
-    transition: transform .5s, opacity .5s;
+    transition: transform .3s, opacity .3s;
 }
 
 .tech-stack-item::before {
@@ -736,6 +734,11 @@ textarea {
     .portfolio-card-6 {
         grid-column: 1/4;
         grid-row: 21/span 10;
+    }
+
+    .portfolio-card-7 {
+        grid-column: 4/-1;
+        grid-row: 22/span 10;
     }
     .cert-cards {
         grid-template-columns: repeat(4, 1fr);
