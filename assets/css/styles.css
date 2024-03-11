@@ -205,6 +205,8 @@ textarea {
 .list-link {
     font-size: 1.4rem;
     color: var(--light-color);
+
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .list-link:hover,
@@ -212,10 +214,14 @@ textarea {
 .scroll-top:hover,
 .scroll-top:focus {
     opacity: .7;
+
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .list-link span {
     font-weight: bold;
+
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 
@@ -770,3 +776,5 @@ textarea {
         padding-block: 5rem;
     }
 }
+
+
