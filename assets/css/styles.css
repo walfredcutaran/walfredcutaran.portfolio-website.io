@@ -450,6 +450,10 @@ textarea {
 
 /* !PORTFOLIO STYLES */
 
+a {
+    text-transform: none !important;
+}
+
 .section-title-container {
     display: inline-block;
     margin-bottom: 5rem;
@@ -539,6 +543,7 @@ textarea {
 
 .large-button-container {
     display: flex;
+    text-transform: lowercase;
 }
 
 .large-button {
